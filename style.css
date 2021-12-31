@@ -9,14 +9,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom,rgba(0,0,0,0.8), rgba(0,0,0,1)),url(/clone/cold1.png) no-repeat  center/cover;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.8), rgba(0,0,0,1)),url(./img/cold1.png) no-repeat  center/cover;
     transition: 1s;
     text-align: center;
 }
 .weather {
     padding: 20px 30px;
     min-width: 350px;
-    background: url(/clone/cold1.png) center/cover no-repeat;
+    background: url(./img/cold1.png) center/cover no-repeat;
     border-radius: 10px;
     transition: 1s;
 }
@@ -25,36 +25,36 @@ body {
 
 
 .cool .weather {
-    background: url(/clone/cool.jpg)  center/cover no-repeat;
+    background: url(./img/cool.jpg)  center/cover no-repeat;
     
 }
 .cool {
-    background: linear-gradient(to bottom,rgba(0,0,0,0.8), rgba(0,0,0,0.4)),url(/clone/cool.jpg) no-repeat  center/cover;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.8), rgba(0,0,0,0.4)),url(./img/cool.jpg) no-repeat  center/cover;
 
 }
 
 .warm {
-    background: linear-gradient(to bottom,rgba(0,0,0,0.8), rgba(0,0,0,0.4)),url(/clone/warm.jpg) no-repeat  center/cover;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.8), rgba(0,0,0,0.4)),url(./img/warm.jpg) no-repeat  center/cover;
 
 }
 .warm .weather {
-    background: url(/clone/warm.jpg)  center/cover no-repeat;
+    background: url(./img/warm.jpg)  center/cover no-repeat;
 
 }
 .cold .weather {
-    background: url(/clone/cold1.png)  center/cover no-repeat;
+    background: url(./img/cold1.png)  center/cover no-repeat;
 
 }
 .cold {
-    background: linear-gradient(to bottom,rgba(0,0,0,0.8), rgba(0,0,0,0.4)),url(/clone/cold1.png) no-repeat  center/cover;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.8), rgba(0,0,0,0.4)),url(./img/cold1.png) no-repeat  center/cover;
 
 
 }
 .hot .weather {
-    background: url(/clone/hot.jpg) center/cover  no-repeat;
+    background: url(./img/hot.jpg) center/cover  no-repeat;
 }
 .hot {
-    background: linear-gradient(to bottom,rgba(0,0,0,0.8), rgba(0,0,0,0.4)),url(/clone/hot.jpg) no-repeat  center/cover;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.8), rgba(0,0,0,0.4)),url(./img/hot.jpg) no-repeat  center/cover;
 
 }
 
